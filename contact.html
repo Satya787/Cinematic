@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="index.html" class="logo">
+                    <img src="logo.jpg" alt="Logo">
+                </a>
+                <a href="index.html" class="sitename">Cinematic Movies</a>
+            </div>
+            <div class="nav-right">
+                <a href="contact.html" class="contact">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <p>
+            Welcome to <b>Cinematic Movies</b>, where every frame tells a story! Dive into a world where cinematic brilliance meets insightful reviews and captivating insights. Whether you're a casual moviegoer or a seasoned film buff, our website is your ultimate destination for all things cinema.
+
+            Discover a curated collection of reviews that delve deep into the heart of each movie, offering thoughtful critiques and highlighting the nuances that make each film a unique masterpiece. From blockbuster hits to indie gems, we cover a wide spectrum of genres and styles, ensuring there's something for everyone.
+            
+            Our passionate team of writers brings a wealth of knowledge and a love for storytelling to every review. They explore not just the plot and performances, but also the cinematography, sound design, and directing techniques that shape the narrative experience. Expect in-depth analysis that goes beyond the surface, uncovering hidden meanings and symbolic references that enrich your viewing.
+            
+            Looking for recommendations? 
+            
+            
+        </p>
+    <form>
+        <table>
+            <tr>
+                <td>NAME</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>FAVOURITE GENRE </td>
+                <td>
+                    <input type="text" name="genre" list="genres">
+                    <datalist id="genres">
+                        <option value="Action">
+                        <option value="Adventure">
+                        <option value="Comedy">
+                        <option value="Drama">
+                        <option value="Fantasy">
+                        <option value="Horror">
+                        <option value="Romance">
+                        <option value="Sci-Fi">
+                        <option value="Thriller">
+                    </datalist>
+                    <br>
+                    <a href="https://www.w3schools.com/tags/att_input_list.asp" target="_blank">Visit the link for more
+                        info on how to create list type input</a>
+                </td>
+            </tr>
+        </table>
+
+        <div class="form-group">
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">SUBSCRIBE TO OUR NEWSLETTER VIA EMAIL</label>
+        </div>
+        <br><br>
+
+            <button type="submit">Submit</button>
+    </form>
+        
+    </main>
+
+    <footer>
+        Copyright © 2024 Cinematic Movies. All Rights Reserved.
+    </footer>
+</body>
+</html>
